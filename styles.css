@@ -4,24 +4,34 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #f9e3e3;
-    font-family: 'Arial', sans-serif;
-    flex-direction: column;
+    background-image: url("heart-bg.jpg");
+    /*background-color: #f9e3e3; */
+    font-family: "Pixelify Sans", sans-serif;
+    /* flex-direction: column; */
   }
-  
+
+h1 {
+    font-size: 30px;
+    margin:0;
+}
+
+p {
+    font-size: 40px;
+}
+
   .container {
     text-align: center;
   }
   
   h1 {
     font-size: 2.5em;
-    color: #d32f2f;
+    color: #000000;
   }
   
   .buttons {
     margin-top: 20px;
   }
-  
+
   .yes-button {
     font-size: 1.5em;
     padding: 10px 20px;
@@ -42,7 +52,7 @@ body {
     border-radius: 5px;
     cursor: pointer;
   }
-  
+
   .gif_container img {
     max-width: 100%;
     height: auto;
